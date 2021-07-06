@@ -27,7 +27,7 @@
         </activity>
 
         <meta-data
-            android:name="com.wolves.openinstalldemo"
+            android:name="com.openinstall.APP_KEY"
             android:value="g7ol4v"/>
     </application>
 
