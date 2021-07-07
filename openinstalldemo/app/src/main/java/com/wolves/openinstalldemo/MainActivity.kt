@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        println (this.packageCodePath)
         // 初使化 openinstall sdk
         OpenInstall.init(this)
         Handler().postDelayed({
