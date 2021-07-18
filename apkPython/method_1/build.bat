@@ -1,0 +1,1 @@
+python multi_channel.py -s ./SrcApk.apk -v 1.0 -p demo -c ./channel

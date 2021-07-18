@@ -4,6 +4,15 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\download\\anun_native\\wd.jks')
+            storePassword '123qwe'
+            keyAlias 'key0'
+            keyPassword '123qwe'
+            v2SigningEnabled false // 禁用v2簽名
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
@@ -11,8 +20,8 @@ android {
         applicationId "com.wolves.apkcomment"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.3"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
